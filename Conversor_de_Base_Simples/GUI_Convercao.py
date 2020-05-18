@@ -6,9 +6,9 @@ class TelaPy:
     def __init__(self):
     #Iniciando layout
         layout = [
-            [sg.Text('Escreva um valor: ', size=(15, 0)), sg.Input(key='valor', size=(15, 0))],
-            [sg.Text('Sua base: ', size=(15,0)), sg.Input(key='base1', size=(15,0))],
-            [sg.Text('Nova base: ', size=(15,0)), sg.Input(key='base2', size=(15,0))],
+            [sg.Text('Escreva um valor: ', size=(15, 0)), sg.Input(key='valor', size=(15, 0), do_not_clear=False)],
+            [sg.Text('Sua base: ', size=(15,0)), sg.Input(key='base1', size=(15,0),do_not_clear=False)],
+            [sg.Text('Nova base: ', size=(15,0)), sg.Input(key='base2', size=(15,0),do_not_clear=False)],
             [sg.Text('Valor da conversao:',size=(15,0)), sg.Output(size=(15, 10))],
             [sg.Button('Enviar')]
         ]
