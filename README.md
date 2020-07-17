@@ -1,1 +1,1 @@
-# rick
+My python studies
